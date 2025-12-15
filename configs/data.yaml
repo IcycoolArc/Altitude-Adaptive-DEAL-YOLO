@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['camelus', 'cattle', 'kiang', 'seal', 'sheep', 'zebra']
+
+roboflow:
+  workspace: waid
+  project: waid-project-tciau
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/waid/waid-project-tciau/dataset/1
